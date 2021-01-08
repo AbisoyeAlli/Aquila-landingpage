@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aquila Aveion</title> 
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css"> 
+    <!--font awesome cdn for social icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--animate.css for animations-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>  
+  <body>
+    <div id="app">
+      <h1>{{ info.name }}</h1>
+      <span class="right fa-stack">
+        <a class="social-icon"><i class="fa fa-instagram"></i></a>
+        <a class="social-icon"><i class="fa fa-twitter-square"></i></a>
+        <a class="social-icon"><i class="fa fa-snapchat-square"></i></a>
+        <a class="social-icon"><i class="fa fa-envelope-square"></i></a>
+      </span>
+      <div class="center-box">
+      </div>      
+      <div class="bottom">
+        <a class="bottom-nav">HOME</a>
+        <a class="bottom-nav">ABOUT</a>
+        <img src="https://images.pexels.com/photos/4088127/pexels-photo-4088127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="bottom-nav" id="bottom-image">
+        <a class="bottom-nav">GALLERY</a>
+        <a class="bottom-nav">CONTACT</a>
+      </div>     
+    </div>
+
+    <!--vue.js cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js" defer></script>
+    <!--axios for api calls-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous" defer></script>
+    <!-- import the webpage's javascript file -->
+    <script src="/app.js" defer></script>
+  </body>
+</html>
